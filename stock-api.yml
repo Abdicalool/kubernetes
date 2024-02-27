@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: widgetario
+  name: stock-api
+spec:
+  containers:
+  - image: widgetario/stock-api:21.03
+    name: stock-api
+

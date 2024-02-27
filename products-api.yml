@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: widgetario
+  name: products-api
+spec:
+  containers:
+  - image: widgetario/products-api:21.03
+    name: products-api
+

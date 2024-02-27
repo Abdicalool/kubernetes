@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: widgetario
+  name: products-db
+spec:
+  containers:
+  - image: widgetario/products-db:21.03
+    name: products-db
+
